@@ -1,39 +1,11 @@
-#ifndef IMPL_SQLITE_REPORTER_H
-#define IMPL_SQLITE_REPORTER_H
-
-#include <sqlite3.h>
+#ifndef IMPL_CLI_REPORTER_H
+#define IMPL_CLI_REPORTER_H
 
 #include "reporter.h"
 
 namespace bathesis {
-class sqlite_reporter : public reporter {
-    sqlite3 *m_db;
-
-    sqlite3_int64 m_report_id;
-
-    sqlite3_int64 m_bisection_id;
-
-    sqlite3_int64 m_refinement_iteration_id;
-
-    int m_num_moved_0to1;
-
-    int m_num_moved_1to0;
-
-    sqlite3_stmt *prepare(const char *sql);
-
-    void exec(sqlite3_stmt *statement);
-
-    void exec(const char *sql);
-
-    void exec_or_throw(const char *sql,
-                       int (*callback)(void *, int, char **, char **),
-                       void *arg);
-
+class cli_reporter : public reporter {
    public:
-    sqlite_reporter(const std::string &db_filename);
-
-    ~sqlite_reporter();
-
     void start(query_graph &QG, const std::string &filename,
                const std::string &remark, double initial_loggap,
                double initial_log, long initial_quadtree) override;
@@ -76,4 +48,5 @@ class sqlite_reporter : public reporter {
 };
 }  // namespace bathesis
 
-#endif  // IMPL_SQLITE_REPORTER_H
+#endif  // IMPL_CLI_REPORTER_H
+

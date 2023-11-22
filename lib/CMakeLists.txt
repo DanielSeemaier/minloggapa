@@ -19,7 +19,9 @@ set(SOURCE_FILES
         ${CMAKE_CURRENT_SOURCE_DIR}/report/reporter.h
         ${CMAKE_CURRENT_SOURCE_DIR}/report/reporter.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/report/sqlite_reporter.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/report/sqlite_reporter.h)
+        ${CMAKE_CURRENT_SOURCE_DIR}/report/sqlite_reporter.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/report/cli_reporter.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/report/cli_reporter.h)
 
 add_library(${CORE_LIB} ${SOURCE_FILES})
 target_link_libraries(${CORE_LIB} ${LIBRARIES})

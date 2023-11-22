@@ -22,4 +22,4 @@ set(LIBRARIES libkahip.a sqlite3)
 
 add_subdirectory(lib)
 add_subdirectory(tools)
-add_subdirectory(experiments)
+add_subdirectory(app)
