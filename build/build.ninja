@@ -219,7 +219,7 @@ build tools/CMakeFiles/x2kahip.dir/x2kahip.cpp.o: CXX_COMPILER__x2kahip_unscanne
 
 build tools/x2kahip: CXX_EXECUTABLE_LINKER__x2kahip_Release tools/CMakeFiles/x2kahip.dir/x2kahip.cpp.o | lib/libimplementation-core.a lib/libimplementation-core.a || lib/libimplementation-core.a
   FLAGS = -fopenmp -O3 -DNDEBUG
-  LINK_LIBRARIES = -Wl,-rpath,/home/seemaier/projects/minloggap/vendor/sdsl-lite-built/lib:/home/seemaier/projects/minloggap/vendor/kahip-built/lib  -Wl,-Bstatic  -lsdsl  -lkahip  -Wl,-Bdynamic  -lsqlite3  lib/libimplementation-core.a  lib/libimplementation-core.a  -Wl,-Bstatic  -lsdsl  -lkahip  -Wl,-Bdynamic  -lsqlite3
+  LINK_LIBRARIES = -Wl,-rpath,/home/seemaier/projects/minloggap/vendor/sdsl-lite-built/lib:/home/seemaier/projects/minloggap/vendor/kahip-built/lib  -Wl,-Bstatic  -lkahip  -Wl,-Bdynamic  -lsqlite3  lib/libimplementation-core.a  lib/libimplementation-core.a  -Wl,-Bstatic  -lkahip  -Wl,-Bdynamic  -lsqlite3
   LINK_PATH = -L/home/seemaier/projects/minloggap/vendor/sdsl-lite-built/lib   -L/home/seemaier/projects/minloggap/vendor/kahip-built/lib
   OBJECT_DIR = tools/CMakeFiles/x2kahip.dir
   POST_BUILD = :
@@ -253,7 +253,7 @@ build tools/CMakeFiles/metrics.dir/metrics.cpp.o: CXX_COMPILER__metrics_unscanne
 
 build tools/metrics: CXX_EXECUTABLE_LINKER__metrics_Release tools/CMakeFiles/metrics.dir/metrics.cpp.o | lib/libimplementation-core.a lib/libimplementation-core.a || lib/libimplementation-core.a
   FLAGS = -fopenmp -O3 -DNDEBUG
-  LINK_LIBRARIES = -Wl,-rpath,/home/seemaier/projects/minloggap/vendor/sdsl-lite-built/lib:/home/seemaier/projects/minloggap/vendor/kahip-built/lib  -Wl,-Bstatic  -lsdsl  -lkahip  -Wl,-Bdynamic  -lsqlite3  lib/libimplementation-core.a  lib/libimplementation-core.a  -Wl,-Bstatic  -lsdsl  -lkahip  -Wl,-Bdynamic  -lsqlite3
+  LINK_LIBRARIES = -Wl,-rpath,/home/seemaier/projects/minloggap/vendor/sdsl-lite-built/lib:/home/seemaier/projects/minloggap/vendor/kahip-built/lib  -Wl,-Bstatic  -lkahip  -Wl,-Bdynamic  -lsqlite3  lib/libimplementation-core.a  lib/libimplementation-core.a  -Wl,-Bstatic  -lkahip  -Wl,-Bdynamic  -lsqlite3
   LINK_PATH = -L/home/seemaier/projects/minloggap/vendor/sdsl-lite-built/lib   -L/home/seemaier/projects/minloggap/vendor/kahip-built/lib
   OBJECT_DIR = tools/CMakeFiles/metrics.dir
   POST_BUILD = :
@@ -287,7 +287,7 @@ build tools/CMakeFiles/graphgen.dir/graphgen.cpp.o: CXX_COMPILER__graphgen_unsca
 
 build tools/graphgen: CXX_EXECUTABLE_LINKER__graphgen_Release tools/CMakeFiles/graphgen.dir/graphgen.cpp.o | lib/libimplementation-core.a || lib/libimplementation-core.a
   FLAGS = -fopenmp -O3 -DNDEBUG
-  LINK_LIBRARIES = -Wl,-rpath,/home/seemaier/projects/minloggap/vendor/sdsl-lite-built/lib:/home/seemaier/projects/minloggap/vendor/kahip-built/lib  -Wl,-Bstatic  -lsdsl  -lkahip  -Wl,-Bdynamic  -lsqlite3  lib/libimplementation-core.a  -Wl,-Bstatic  -lsdsl  -lkahip  -Wl,-Bdynamic  -lsqlite3
+  LINK_LIBRARIES = -Wl,-rpath,/home/seemaier/projects/minloggap/vendor/sdsl-lite-built/lib:/home/seemaier/projects/minloggap/vendor/kahip-built/lib  -Wl,-Bstatic  -lkahip  -Wl,-Bdynamic  -lsqlite3  lib/libimplementation-core.a  -Wl,-Bstatic  -lkahip  -Wl,-Bdynamic  -lsqlite3
   LINK_PATH = -L/home/seemaier/projects/minloggap/vendor/sdsl-lite-built/lib   -L/home/seemaier/projects/minloggap/vendor/kahip-built/lib
   OBJECT_DIR = tools/CMakeFiles/graphgen.dir
   POST_BUILD = :
@@ -321,7 +321,7 @@ build tools/CMakeFiles/permute.dir/permute.cpp.o: CXX_COMPILER__permute_unscanne
 
 build tools/permute: CXX_EXECUTABLE_LINKER__permute_Release tools/CMakeFiles/permute.dir/permute.cpp.o | lib/libimplementation-core.a || lib/libimplementation-core.a
   FLAGS = -fopenmp -O3 -DNDEBUG
-  LINK_LIBRARIES = -Wl,-rpath,/home/seemaier/projects/minloggap/vendor/sdsl-lite-built/lib:/home/seemaier/projects/minloggap/vendor/kahip-built/lib  -Wl,-Bstatic  -lsdsl  -lkahip  -Wl,-Bdynamic  -lsqlite3  lib/libimplementation-core.a  -Wl,-Bstatic  -lsdsl  -lkahip  -Wl,-Bdynamic  -lsqlite3
+  LINK_LIBRARIES = -Wl,-rpath,/home/seemaier/projects/minloggap/vendor/sdsl-lite-built/lib:/home/seemaier/projects/minloggap/vendor/kahip-built/lib  -Wl,-Bstatic  -lkahip  -Wl,-Bdynamic  -lsqlite3  lib/libimplementation-core.a  -Wl,-Bstatic  -lkahip  -Wl,-Bdynamic  -lsqlite3
   LINK_PATH = -L/home/seemaier/projects/minloggap/vendor/sdsl-lite-built/lib   -L/home/seemaier/projects/minloggap/vendor/kahip-built/lib
   OBJECT_DIR = tools/CMakeFiles/permute.dir
   POST_BUILD = :
@@ -384,7 +384,7 @@ build experiments/CMakeFiles/basic_fm_mix.dir/basic_fm_mix.cpp.o: CXX_COMPILER__
 
 build experiments/basic_fm_mix: CXX_EXECUTABLE_LINKER__basic_fm_mix_Release experiments/CMakeFiles/basic_fm_mix.dir/basic_fm_mix.cpp.o | lib/libimplementation-core.a || lib/libimplementation-core.a
   FLAGS = -fopenmp -O3 -DNDEBUG
-  LINK_LIBRARIES = -Wl,-rpath,/home/seemaier/projects/minloggap/vendor/sdsl-lite-built/lib:/home/seemaier/projects/minloggap/vendor/kahip-built/lib  -Wl,-Bstatic  -lsdsl  -lkahip  -Wl,-Bdynamic  -lsqlite3  lib/libimplementation-core.a  -Wl,-Bstatic  -lsdsl  -lkahip  -Wl,-Bdynamic  -lsqlite3
+  LINK_LIBRARIES = -Wl,-rpath,/home/seemaier/projects/minloggap/vendor/sdsl-lite-built/lib:/home/seemaier/projects/minloggap/vendor/kahip-built/lib  -Wl,-Bstatic  -lkahip  -Wl,-Bdynamic  -lsqlite3  lib/libimplementation-core.a  -Wl,-Bstatic  -lkahip  -Wl,-Bdynamic  -lsqlite3
   LINK_PATH = -L/home/seemaier/projects/minloggap/vendor/sdsl-lite-built/lib   -L/home/seemaier/projects/minloggap/vendor/kahip-built/lib
   OBJECT_DIR = experiments/CMakeFiles/basic_fm_mix.dir
   POST_BUILD = :
@@ -418,7 +418,7 @@ build experiments/CMakeFiles/ls_improvement_test.dir/ls_improvement_test.cpp.o: 
 
 build experiments/ls_improvement_test: CXX_EXECUTABLE_LINKER__ls_improvement_test_Release experiments/CMakeFiles/ls_improvement_test.dir/ls_improvement_test.cpp.o | lib/libimplementation-core.a || lib/libimplementation-core.a
   FLAGS = -fopenmp -O3 -DNDEBUG
-  LINK_LIBRARIES = -Wl,-rpath,/home/seemaier/projects/minloggap/vendor/sdsl-lite-built/lib:/home/seemaier/projects/minloggap/vendor/kahip-built/lib  -Wl,-Bstatic  -lsdsl  -lkahip  -Wl,-Bdynamic  -lsqlite3  lib/libimplementation-core.a  -Wl,-Bstatic  -lsdsl  -lkahip  -Wl,-Bdynamic  -lsqlite3
+  LINK_LIBRARIES = -Wl,-rpath,/home/seemaier/projects/minloggap/vendor/sdsl-lite-built/lib:/home/seemaier/projects/minloggap/vendor/kahip-built/lib  -Wl,-Bstatic  -lkahip  -Wl,-Bdynamic  -lsqlite3  lib/libimplementation-core.a  -Wl,-Bstatic  -lkahip  -Wl,-Bdynamic  -lsqlite3
   LINK_PATH = -L/home/seemaier/projects/minloggap/vendor/sdsl-lite-built/lib   -L/home/seemaier/projects/minloggap/vendor/kahip-built/lib
   OBJECT_DIR = experiments/CMakeFiles/ls_improvement_test.dir
   POST_BUILD = :

@@ -18,7 +18,7 @@ link_directories(
 )
 
 set(CORE_LIB implementation-core)
-set(LIBRARIES libsdsl.a libkahip.a sqlite3)
+set(LIBRARIES libkahip.a sqlite3)
 
 add_subdirectory(lib)
 add_subdirectory(tools)

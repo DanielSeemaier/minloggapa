@@ -1,10 +1,10 @@
 #include <algorithm>
 #include <functional>
 #include <cmath>
+#include <numeric>
+#include <random>
+#include <ctime>
 
-#include <sdsl/io.hpp>
-#include <sdsl/int_vector.hpp>
-#include <sdsl/vlc_vector.hpp>
 #include <io/graph_io.h>
 #include <tools/quality_metrics.h>
 
@@ -36,7 +36,10 @@ std::vector<NodeID> utils::create_identity_layout(graph_access &G) {
 
 std::vector<NodeID> utils::create_random_layout(graph_access &G) {
     std::vector<NodeID> id = create_identity_layout(G);
-    std::random_shuffle(id.begin(), id.end());
+    
+    std::random_device rd;
+    std::mt19937 g(rd());
+    std::shuffle(id.begin(), id.end(), g);
     return id;
 }
 
@@ -201,7 +204,10 @@ utils::find_linear_arrangement(query_graph &QG, int level, initial_partitioner_i
         forall_nodes(QG.data_graph(), v)
                 inverted_layout[v] = v;
         endfor
-        std::random_shuffle(inverted_layout.begin(), inverted_layout.end());
+            
+        std::random_device rd;
+        std::mt19937 g(rd());
+        std::shuffle(inverted_layout.begin(), inverted_layout.end(), g);
         return inverted_layout;
     }
 
