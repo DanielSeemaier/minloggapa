@@ -1,0 +1,16 @@
+.idea
+cmake-build-debug
+tmp
+sdsl-lite-built
+vendor/kahip-built/lib
+data/fb
+data/cnr-2000.graph
+data/in-2004.graph
+data/eu-2005.graph
+data/generated/
+*.db-journal
+*.db
+*.partition_*
+*.bz2
+data/kronecker-simple-16.graph
+experiments-out/

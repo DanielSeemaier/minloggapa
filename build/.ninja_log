@@ -1,0 +1,22 @@
+# ninja log v5
+8	1724	1700670787203550319	lib/CMakeFiles/implementation-core.dir/data-structure/query_graph.cpp.o	22e6935bad6a8831
+2	2037	1700670787510218216	lib/CMakeFiles/implementation-core.dir/refinement/fm_refiner_quadtree.cpp.o	68202696329196a5
+9	1272	1700670786740215127	lib/CMakeFiles/implementation-core.dir/report/sqlite_reporter.cpp.o	e652cdea00f2df3e
+2	1314	1700670786793548675	lib/CMakeFiles/implementation-core.dir/refinement/fm_refiner.cpp.o	f19ad17aa413c946
+1259	3115	1700670788596889242	tools/CMakeFiles/graphgen.dir/graphgen.cpp.o	73fc9c67bcb83442
+2	28	1700670837870420335	lib/libimplementation-core.a	72a3517ee7384adb
+1	1978	1700670787456884669	lib/CMakeFiles/implementation-core.dir/refinement/basic_refiner.cpp.o	b0b7d214cee004ae
+8	858	1700670786340213523	lib/CMakeFiles/implementation-core.dir/report/reporter.cpp.o	e2c121919d36c3ca
+1074	2736	1700670788220221065	tools/CMakeFiles/metrics.dir/metrics.cpp.o	ab35affc5f7da79f
+1272	2649	1700670788130220703	tools/CMakeFiles/permute.dir/permute.cpp.o	f886d7daeeaae965
+28	216	1700670838060421098	tools/x2kahip	5139007695438d78
+3	1016	1700670950187526419	experiments/CMakeFiles/fixed_imbalance.dir/fixed_imbalance.cpp.o	d4c6814f7a5dc332
+1	3080	1700670788560222428	lib/CMakeFiles/implementation-core.dir/utils.cpp.o	c33b9fc14530633c
+1	1073	1700670786553547712	lib/CMakeFiles/implementation-core.dir/refinement/refiner_interface.cpp.o	62a6099a4fa6c294
+2	904	1700670838750423868	experiments/CMakeFiles/ls_improvement_test.dir/ls_improvement_test.cpp.o	34c712a819015257
+1	2137	1700670787616885311	lib/CMakeFiles/implementation-core.dir/initial-partitioner/kahip_initial_partitioner.cpp.o	1054ffaeb638500d
+3	978	1700670909004039480	experiments/CMakeFiles/basic_fm_mix.dir/basic_fm_mix.cpp.o	31ddcd81cad4cfcf
+1	1259	1700670786733548434	lib/CMakeFiles/implementation-core.dir/initial-partitioner/random_initial_partitioner.cpp.o	66529f4741bdd470
+860	2982	1700670788463555374	tools/CMakeFiles/x2kahip.dir/x2kahip.cpp.o	4b1a4da22b25ab09
+29	198	1700670838040421017	tools/graphgen	d235585885918c6b
+3	855	1700671074071271600	experiments/CMakeFiles/ls_improvement_test.dir/ls_improvement_test.cpp.o	34c712a819015257
